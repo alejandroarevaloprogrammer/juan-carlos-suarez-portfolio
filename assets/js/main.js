@@ -680,6 +680,7 @@ function initContactForm(){
                 {
                     from_name:name,
                     from_email:email,
+                    reply_to:email,
                     message:message
                 }
             );
