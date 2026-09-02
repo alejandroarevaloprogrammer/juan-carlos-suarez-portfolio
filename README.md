@@ -130,3 +130,13 @@ https://github.com/alejandroarevaloprogrammer
 
 Portfolio:  
 https://alejandroarevalorojas.com/
+
+---
+
+# License
+
+This repository is publicly available for portfolio and reference purposes only.
+
+The source code is not licensed for reuse, redistribution or commercial use without permission.
+
+All images, videos, logos, game content and other media related to Juan Carlos Suarez and his projects are the property of their respective owners and may not be reused, reproduced or redistributed without permission.
