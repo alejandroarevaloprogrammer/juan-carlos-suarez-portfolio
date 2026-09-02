@@ -103,6 +103,31 @@ function setActiveLink(){
 }
 
 // =========================================
+// MOBILE NAVBAR RESET
+// =========================================
+
+function closeMobileNavbar(){
+
+    const navbarCollapse =
+        document.getElementById("navbarNav");
+
+    if(!navbarCollapse){
+        return;
+    }
+
+    const collapseInstance =
+        bootstrap.Collapse.getOrCreateInstance(
+            navbarCollapse,
+            {
+                toggle:false
+            }
+        );
+
+    collapseInstance.hide();
+
+}
+
+// =========================================
 // DYNAMIC COPYRIGHT YEAR
 // =========================================
 
@@ -737,5 +762,15 @@ document.addEventListener("DOMContentLoaded", async () => {
     initGameVideoPreviews();
 
     initContactForm();
+
+});
+
+// =========================================
+// BROWSER HISTORY NAVIGATION
+// =========================================
+
+window.addEventListener("pageshow", () => {
+
+    closeMobileNavbar();
 
 });
