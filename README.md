@@ -94,6 +94,7 @@ assets/
 ├── gifs/
 ├── video/
 ├── indexbackground.jpg
+├── og-image.png
 ├── photo.png
 └── preview.png
 ```
